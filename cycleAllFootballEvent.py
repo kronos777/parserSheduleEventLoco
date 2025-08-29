@@ -27,10 +27,11 @@ for season in range(1,18):
 
 
     for index, li in  enumerate(li_elements):
+        seasonText = li.text
         if (index == 0 and season == 1):
             htmlPage = driver.page_source
             soup = bs(htmlPage)
-            parserListEventPage.parserListEventPage().cycleListLink(soup)
+            parserListEventPage.parserListEventPage().cycleListLink(soup, seasonText)
             continue
         if (index == season):
             print(season)
@@ -38,7 +39,7 @@ for season in range(1,18):
             time.sleep(5)
             htmlPage = driver.page_source
             soup = bs(htmlPage)
-            parserListEventPage.parserListEventPage().cycleListLink(soup)
+            parserListEventPage.parserListEventPage().cycleListLink(soup, seasonText)
             break
 
 

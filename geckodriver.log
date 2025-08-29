@@ -1978,3 +1978,53 @@ Dynamically enable window occlusion 1
 console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1756482014511	geckodriver	INFO	Listening on 127.0.0.1:55013
+1756482015040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile0sR0F6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1756482015240	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1756482015481	Marionette	INFO	Listening on port 55020
+Read port: 55020
+1756482015582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 60: Script terminated by timeout at:
+W/<@https://mc.yandex.ru/metrika/tag.js:60:302
+
+1756482355546	Marionette	INFO	Stopped listening on port 55020
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+ port: 55124
+1756482235172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 60: Script terminated by timeout at:
+W/<@https://mc.yandex.ru/metrika/tag.js:60:302
+
+1756482352856	Marionette	INFO	Stopped listening on port 55124
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1756482474937	geckodriver	INFO	Listening on 127.0.0.1:55245
+1756482475454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofileqsDmwQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1756482475645	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1756482475887	Marionette	INFO	Listening on port 55252
+Read port: 55252
+1756482475988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 60: Script terminated by timeout at:
+W/<@https://mc.yandex.ru/metrika/tag.js:60:302
+
+1756483251432	Marionette	INFO	Stopped listening on port 55252
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
