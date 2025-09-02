@@ -11,10 +11,21 @@ class parserDetailEventPage:
         gameData = []
         seasonEvent = season
         dateTimeEvent = pageHtml.find('title').get_text().split(',')
-        dateTimeEvent = dateTimeEvent[1].split('|')
-        dateTimeEvent = dateTimeEvent[0].strip()
-        dateTimeHoursEvent = pageHtml.find('div', {'class': ['match-detail-time']}).get_text().strip()
-        dateTimeEvent = dateTimeEvent + " " + dateTimeHoursEvent
+        if len(dateTimeEvent) > 1:
+            if len(dateTimeEvent) > 2:
+                dateTimeEvent = dateTimeEvent[2].split('|')
+            else:
+                dateTimeEvent = dateTimeEvent[1].split('|')
+
+            dateTimeEvent = dateTimeEvent[0].strip()
+            if pageHtml.find('div', {'class': ['match-detail-time']}) is not None:
+                dateTimeHoursEvent = pageHtml.find('div', {'class': ['match-detail-time']}).get_text().strip()
+                dateTimeEvent = dateTimeEvent + " " + dateTimeHoursEvent
+            else:
+                dateTimeEvent = dateTimeEvent
+        else:
+            dateTimeHoursEvent = pageHtml.find('div', {'class': ['match-detail-time']}).get_text().strip()
+            dateTimeEvent = dateTimeHoursEvent
         placeEvent = pageHtml.find('div', {'class': ['match-detail-stadium']}).get_text().strip()
         typeСompetition = pageHtml.find('div', {'class': ['match-detail-tour']}).find_all('div')[0].get_text().strip()
         stageСompetition = pageHtml.find('div', {'class': ['match-detail-tour']}).find_all('div')[1].get_text().strip()

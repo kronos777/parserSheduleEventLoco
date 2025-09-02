@@ -27,9 +27,11 @@ for idx, items in enumerate(data):
         if ids == 0:
             continue
         url = "https://www.fclm.ru" + item
-        #url = "https://www.fclm.ru/schedule/12181/"
+        #url = "https://www.fclm.ru/#"
+        #url = "https://www.fclm.ru/schedule/12165/"
         checkUrl = url.split('schedule')
-        if len(checkUrl) > 0:
+        print(len(checkUrl))
+        if len(checkUrl) > 1:
             driver.get(url)
             driver.implicitly_wait(5)
             htmlPage = driver.page_source
